@@ -54,7 +54,7 @@ a {
 
 /* General styles */
 
-html {
+* {
 	box-sizing: border-box;
 }
 
@@ -70,18 +70,19 @@ body {
 
 footer {
 	text-align: center;
+	border-top: 1px solid #4C4D4D;
+	margin-top: 1em;
 }
 
 h1 {
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 400%;
-	margin: 30px 0;
+	font-size: 200%;
+	padding-left: 10px;
 }
 
 h2 {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 150%;
-	margin: 30px 0;
 }
 
 .name {
@@ -95,6 +96,7 @@ nav {
 	background-color: #62676A;
 	color: #F7F7F8;
 	padding: 10px;
+	margin-bottom: 1em;
 } 
 
 .navbar {
@@ -110,23 +112,25 @@ nav {
 	text-decoration: underline;
 }
 
-img {
+.portrait {
 	max-width: 80%;
 	height: auto;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 15px;
+	padding-bottom:15px;
 }
 
 p {
-	margin: 15px 0;
+	padding: 10px;
 }
 
 @media only screen and (min-width: 480px) {
 	body {
 		font-size: 16px;
 	}
-	
+
 	.name {
 		padding-left: 10px;
 		padding-bottom: 0;
@@ -138,12 +142,25 @@ p {
 		align-items: center;
 	}
 
-	.navbar {
-		display: flex;
-	}
-
 	.nav-item a {
 		padding-left: 10px;
 		padding-right: 10px;
 	}
+
+	.index-main-container {
+		display: flex;
+		align-items: flex-end;
+	} 
+
+	.index-text-container {
+		padding-bottom: 10px;
+	}
+
+	 .portrait {
+		padding-right: 10px;
+	}
+} 
+
+@media only screen and (min-width: 768px) {
+	
 }
