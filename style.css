@@ -66,6 +66,9 @@ body {
     line-height: 120%;
     background-color: #F9FBFB;
     color: #4C4D4D;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 h1 {
@@ -109,10 +112,14 @@ nav {
     padding-left: 10px;
 }
 
+main {
+    flex: 1;
+}
+
 footer {
 	text-align: center;
-	border-top: 1px solid #4C4D4D;
-	margin-top: 1em;
+    border-top: 1px solid #4C4D4D;
+    padding: 0.5em;
 }
 
 @media only screen and (max-width: 480px) {
