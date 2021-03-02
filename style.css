@@ -73,7 +73,8 @@ body {
 
 h1 {
     font-family: 'Cormorant Garamond', serif;
-	font-size: 200%;
+    font-size: 200%;
+    padding-bottom: 0.5em;
 }
 
 h2 {
@@ -100,6 +101,10 @@ nav {
 	padding-right: 10px;
 }
 
+a:visited {
+    color: #4C4D4D;
+}
+
 .nav-item a:visited {
     color: #F7F7F8;
 }
@@ -114,6 +119,10 @@ nav {
 
 main {
     flex: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 footer {
@@ -150,18 +159,14 @@ footer {
     align-items: flex-end;
 }
 
-.index-text-container {
+/* .index-text-container {
     padding-left: 10px;
-}
-
-.index-text-container h1 {
-    padding-bottom: 10px;
-}
+} */
 
 .portrait {
 	max-width: 80%;
     height: auto;
-    padding-right: 10px;
+    /* padding-right: 10px; */
 }
 
 @media only screen and (max-width: 480px) {
@@ -184,6 +189,14 @@ footer {
 /* End of Projects */
 
 /* Contacts */
+
+#contact-icons {
+    padding-top: 1em;
+}
+
+#contact-icons a {
+    padding-right: 0.5em;
+}
 
 /* End of Projects */
 
