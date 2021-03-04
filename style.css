@@ -82,6 +82,10 @@ h2 {
 	font-size: 150%;
 }
 
+p {
+
+}
+
 nav {
     background-color:  #62676A;
     color: #F7F7F8;
@@ -159,6 +163,10 @@ footer {
     align-items: flex-end;
 }
 
+.index-text-container p {
+    padding-top: 1em;
+}
+
 .portrait {
 	max-width: 80%;
     height: auto;
@@ -182,15 +190,16 @@ footer {
 
 /* Projects */
 
+
 /* End of Projects */
 
 /* Contacts */
 
-#contact-icons {
+.contact-icons {
     padding-top: 1em;
 }
 
-#contact-icons a {
+.contact-icons a {
     padding-right: 0.5em;
 }
 
