@@ -1,0 +1,154 @@
+
+
+/* General Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1024px;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 120%;
+    background-color: #F9FBFB;
+    color: #4C4D4D;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 200%;
+    padding-bottom: 0.5em;
+}
+
+h2 {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 150%;
+}
+
+
+nav {
+    background-color:  #62676A;
+    color: #F7F7F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 1em;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-item a {
+    padding-left: 10px;
+	padding-right: 10px;
+}
+
+a:visited {
+    color: #4C4D4D;
+}
+
+.nav-item a:visited {
+    color: #F7F7F8;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+}
+
+.name {
+    padding-left: 10px;
+}
+
+main {
+    flex: 1;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+footer {
+	text-align: center;
+    border-top: 1px solid #4C4D4D;
+    padding: 0.5em;
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    
+    nav {
+       display: block; 
+    }
+
+    .navbar {
+        justify-content: space-around;
+    }
+
+    .name {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+/* End of General Styles */
+
+/* Index */
+
+#about {
+    display: flex;
+    align-items: flex-end;
+}
+
+#about-text-container p {
+    padding-top: 1em;
+}
+
+.portrait {
+	max-width: 80%;
+    height: auto;
+    margin-left: 2em;
+}
+
+@media only screen and (max-width: 480px) {
+    #about {
+        display: block;
+    }
+
+    .portrait {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+    }
+}
+
+/* End of Index */
+
+/* Projects */
+
+
+/* End of Projects */
+
+/* Contacts */
+
+.link-icons {
+    padding-top: 1em;
+}
+
+.link-icons a {
+    padding-right: 0.5em;
+}
+
+/* End of Projects */
+
+
+
