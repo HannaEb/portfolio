@@ -3,22 +3,26 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfolio</title>
-    <link href="/style.css" type="text/css" rel="stylesheet">
-    <script src="/script.js"></script>
+    <link href="../css/reset.css" type="text/css" rel="stylesheet">
+    <link href="../css/styles.css" type="text/css" rel="stylesheet">
+    <link href="../css/about.css" type="text/css" rel="stylesheet">
+    <script src="../js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:700i|Fira+Sans" rel="stylesheet">
   </head>
   <body>
-    <nav>
+    <header>
       <h2 class="name">Hanna Eberhoefer</h2>
-      <ul class="navbar">
-          <li class="nav-item"><a href="/index.html">About</a></li>
-          <li class="nav-item"><a href="/projects.html">Projects</a></li>
-          <li class="nav-item"><a href="/contact.html">Contact</a></li>
-      </ul>
-    </nav>
+      <nav>
+        <ul>
+          <li class="nav-item"><a href="./index.html">About</a></li>
+          <li class="nav-item"><a href="./projects.html">Projects</a></li>
+          <li class="nav-item"><a href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <div class="index-main-container">
-        <div class="index-text-container">
+      <section id="about">
+        <section id="about-text-container">
           <h1>Welcome!</h1>
           <p>
             My name is Hanna, and I am an enthusiastic Junior Web Developer currently based 
@@ -34,13 +38,15 @@
           <p>
             Head over to the next section to have a look at my projects.
           </p>
-        </div>
-        <img src="/portrait.png" alt="A head shot of Hanna Eberhoefer" class="portrait">
+        </section>
+        <figure>
+          <img src="../images/portrait.png" alt="A head shot of Hanna Eberhoefer" class="portrait">
+        </figure>
+      </section>
     </main>
     <footer>
       <p>&copy2021 Made in London</p>
     </footer>
-    </div>
   </body>
 </html>
 
