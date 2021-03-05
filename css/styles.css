@@ -7,8 +7,8 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     font-family: 'Fira Sans', sans-serif;
-    background-color: #F9FBFB;
-    color: #4C4D4D;
+    background-color: #FDFDFD;
+    color: #181818;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -42,14 +42,14 @@ p {
 }
 
 header {
-    background-color: #62676A;
-    color: #F7F7F8;
+    background-image: linear-gradient(to right,#6d8ead, #ad6da5);
+    color: #FDFDFD;
     padding: 0.5em 1em;
     margin-bottom: 1.5em;
 }
 
 .nav-item a:visited {
-    color: #F7F7F8;
+    color: #FDFDFD;
 }
 
 .nav-item a:hover {
@@ -65,6 +65,10 @@ nav ul {
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+
+    header h2 {
+        font-size: 120%;
     }
 
     .nav-item a {
@@ -97,17 +101,18 @@ main {
     padding-top: 0.5em;
 }
 
-.link-icons a{
+.link-icons a {
     padding-right: 0.5em;
+    color: #6d8ead;
 }
 
 .link-icons a:visited {
-    color: #4C4D4D;
+    color: #6d8ead;
 }
 
 footer {
     text-align: center;
-    border-top: 1px solid #4C4D4D;
+    border-top: 1px solid #181818;
     padding-bottom: 0.5em;
     margin-top: 1.5em;
 }
