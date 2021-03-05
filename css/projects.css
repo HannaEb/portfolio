@@ -1,0 +1,25 @@
+#projects-container {
+    margin-top: 2em;
+    display: grid;
+    grid-gap: 2em;
+}
+
+/* .project {
+    border: 2px solid black;
+} */
+
+.project img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width: 780px) {
+    #projects-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 780px) {
+    #projects-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
