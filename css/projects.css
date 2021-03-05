@@ -1,3 +1,7 @@
+p {
+    max-width: 50ch;
+}
+
 #projects-container {
     margin-top: 2em;
     display: grid;
