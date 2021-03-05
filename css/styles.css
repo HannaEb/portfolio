@@ -14,6 +14,18 @@ body {
     flex-direction: column;
 }
 
+@media only screen and (min-width: 480px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+
 h1 {
     font-family: 'Cormorant Garamond', serif;
     font-size: 200%;
@@ -48,6 +60,33 @@ nav ul {
     display: flex;
 }
 
+@media only screen and (min-width: 480px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-item a {
+        padding-left: 1em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    header h2 {
+        text-align: center;
+    }
+
+    nav ul {
+        justify-content: space-around;
+        padding-top: 0.5em;
+    }
+
+    .nav-item {
+        display: inline;
+    }
+}
+
 main {
     flex: 1;
     padding-left: 1em;
@@ -69,44 +108,13 @@ main {
 footer {
     text-align: center;
     border-top: 1px solid #4C4D4D;
-    padding: 0.5em;
+    padding-bottom: 0.5em;
     margin-top: 1.5em;
 }
 
-@media only screen and (min-width: 480px) {
 
-    body {
-        font-size: 16px;
-    }
-    header {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
 
-    .nav-item a {
-        padding-left: 1em;
-    }
-}
 
-@media only screen and (max-width: 480px) {
-    body {
-        font-size: 12px;
-    }
-
-    header h2 {
-        text-align: center;
-    }
-
-    nav ul {
-        justify-content: space-around;
-        padding-top: 0.5em;
-    }
-
-    .nav-item {
-        display: inline;
-    }
-}
 
 
 
