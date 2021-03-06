@@ -43,6 +43,7 @@ p {
 
 header {
     background-image: linear-gradient(to right,#6d8ead, #ad6da5);
+    border-radius: 0.2em;
     color: #FDFDFD;
     padding: 0.5em 1em;
     margin-bottom: 2em;
@@ -98,16 +99,20 @@ main {
 }
 
 .link-icons {
-    padding-top: 0.5em;
+    padding-top: 1em;
 }
 
 .link-icons a {
     padding-right: 0.5em;
-    color: #6d8ead;
+    color: #6D8EAD;
 }
 
 .link-icons a:visited {
-    color: #6d8ead;
+    color: #6D8EAD;
+}
+
+.link-icons a:hover {
+    color: #58748F;
 }
 
 footer {

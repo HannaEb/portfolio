@@ -1,11 +1,11 @@
-p {
-    max-width: 50ch;
-}
-
 #projects-container {
     margin-top: 2em;
     display: grid;
     grid-gap: 2em;
+}
+
+#projects-text-container p {
+    max-width: 50ch;
 }
 
 .project img {
