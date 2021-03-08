@@ -62,10 +62,9 @@
 
 @media only screen and (max-width: 400px) {
     .modal-content {
-        width: 90%;
+        width: 95%;
     }
 }
-
 
 .close {
     position: absolute;
