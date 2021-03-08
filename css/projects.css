@@ -9,11 +9,11 @@
 }
 
 .project-image {
-    max-width: 100%;
+    width: 100%;
 }
 
 .project-image:hover {
-    opacity: 0.9;
+    opacity: 0.5;
 }
 
 @media only screen and (min-width: 780px) {
@@ -40,21 +40,29 @@
     overflow: auto; 
 }
 
-
 .modal-content {
     position: relative;
     background-color: #FDFDFD;
-    border: 1px solid #181818;
+    border: 2px solid #181818;
     margin: auto;
-    width: 50%;
+    width: 40%;
+    padding: 2em 1em 1em 1em;
+    
 }
 
 .close {
-    float: right;
-    font-size: 2em;
+    position: absolute;
+    right: 1%;
+    top: -2%;
+    color: #181818;
+    font-size: 3em;
 }
 
 .close:hover,
 .close:focus {
     cursor: pointer;
+}
+
+.modal-image {
+    max-width: 100%;
 }

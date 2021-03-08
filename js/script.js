@@ -1,6 +1,7 @@
 
 const images = document.querySelectorAll('img.project-image');
 const modals = document.querySelectorAll('.modal');
+const modalImages = document.querySelectorAll('img.modal-image');
 const spans = document.getElementsByClassName('close');
 
 
