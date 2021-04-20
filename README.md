@@ -4,6 +4,8 @@
 
 A personal portfolio site built with HTML, CSS, and Javascript.
 
+![](images/screenshot.png)
+
 
 ## Motivation
 
