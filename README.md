@@ -14,7 +14,7 @@ This project is part of the [Codecademy Front-End Engineer](https://www.codecade
 
 ## Installation Instructions
 
-In your terminal, run 'git clone https://github.com/HannaEb/portfolio'. The application can then be viewed by opening the index.html file in the browser.
+In your terminal, run `git clone https://github.com/HannaEb/portfolio`. The application can then be viewed by opening the index.html file in the browser.
 
 
 ## Author
