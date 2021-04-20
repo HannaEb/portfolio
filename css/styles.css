@@ -49,6 +49,10 @@ header {
     margin-bottom: 2em;
 }
 
+.nav-item a {
+  color: #FDFDFD;
+}
+
 .nav-item a:visited {
     color: #FDFDFD;
 }
@@ -121,10 +125,3 @@ footer {
     padding-bottom: 0.5em;
     margin-top: 1.5em;
 }
-
-
-
-
-
-
-
